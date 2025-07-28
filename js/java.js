@@ -1,4 +1,4 @@
-const loading = document.getElementById("loading");
+const loading = document.getElementById("loadi");
 
 window.addEventListener("load",()=>{
     setTimeout(()=>{
