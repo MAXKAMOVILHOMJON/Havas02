@@ -1,0 +1,211 @@
+#karyera {
+    display: flex;
+    padding: 20px;
+    margin-top: 100px;
+    gap: 50px;
+  }
+  #karyera .karyera-imh {
+    width: 562px;
+    height: 378px;
+    opacity: 1;
+  }
+  #karyera .karyera-commit {
+    padding-top: 50px;
+  }
+  #karyera .karyera-commit h1 {
+    font-family: Circe;
+    font-weight: 700;
+    font-size: 26px;
+    vertical-align: middle;
+  }
+  
+  #karyera1 {
+    background-color: rgb(249, 249, 249);
+    padding-top: 30px;
+    padding-left: 80px;
+  }
+  #karyera1 .yell {
+    background-color: rgb(250, 223, 0);
+    width: 396px;
+    height: 20px;
+    opacity: 1;
+    position: relative;
+  }
+  #karyera1 .yell h1 {
+    font-family: Circe;
+    font-weight: 800;
+    font-size: 30px;
+    position: absolute;
+    bottom: 2px;
+    left: -10px;
+  }
+  #karyera1 .karyera1-menu {
+    width: 784px;
+    height: 55px;
+    display: flex;
+    border-width: 2px;
+    border-radius: 27.5px;
+    border: 2px solid rgb(233, 96, 35);
+    text-align: center;
+    gap: 200px;
+    justify-content: center;
+    padding-top: 15px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  #karyera1 .karyera1-menu a {
+    color: rgb(233, 96, 35);
+  }
+  #karyera1 .karyera1-menu a:hover {
+    margin-left: 3px;
+    margin-top: -15px;
+    text-align: center;
+    width: 261px;
+    height: 55px;
+    border-radius: 27.5px;
+    background-color: rgb(48, 146, 47);
+    color: white;
+  }
+  #karyera1 .karyera1-cards {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 60px;
+  }
+  #karyera1 .karyera1-cards .karyera1-card1 {
+    display: flex;
+    border: 2px solid rgb(233, 96, 35);
+    width: 300px;
+    height: 130px;
+    opacity: 1;
+    border-radius: 10px;
+    border-width: 2px;
+    padding: 20px;
+    gap: 10px;
+  }
+  #karyera1 .karyera1-cards .karyera1-card1 img {
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+  }
+  #karyera1 .karyera1-cards .karyera1-card1 p {
+    font-family: Circe;
+    font-weight: 400;
+    font-size: 20px;
+    border-bottom: 2px solid black;
+  }
+  #karyera1 .karyera1-cards .karyera1-card1 p a {
+    font-size: 12px;
+    margin-bottom: 100px;
+  }
+  #karyera1 .karyera1-cards .karyera1-card2 {
+    display: flex;
+    border: 2px solid rgb(250, 223, 0);
+    width: 300px;
+    height: 130px;
+    opacity: 1;
+    border-radius: 10px;
+    border-width: 2px;
+    padding: 20px;
+    gap: 10px;
+  }
+  #karyera1 .karyera1-cards .karyera1-card2 img {
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+  }
+  #karyera1 .karyera1-cards .karyera1-card2 p {
+    font-family: Circe;
+    font-weight: 400;
+    font-size: 20px;
+    border-bottom: 2px solid black;
+  }
+  #karyera1 .karyera1-cards .karyera1-card2 p a {
+    font-size: 12px;
+    margin-bottom: 100px;
+  }
+  #karyera1 .karyera1-cards .karyera1-card3 {
+    display: flex;
+    border: 2px solid rgb(53, 108, 45);
+    width: 300px;
+    height: 130px;
+    opacity: 1;
+    border-radius: 10px;
+    border-width: 2px;
+    padding: 20px;
+    gap: 10px;
+  }
+  #karyera1 .karyera1-cards .karyera1-card3 img {
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+  }
+  #karyera1 .karyera1-cards .karyera1-card3 p {
+    font-family: Circe;
+    font-weight: 400;
+    font-size: 20px;
+    border-bottom: 2px solid black;
+  }
+  #karyera1 .karyera1-cards .karyera1-card3 p a {
+    font-size: 12px;
+    margin-bottom: 100px;
+  }
+  
+  #karyer2 {
+    margin: 50px;
+    padding-top: 50px;
+  }
+  #karyer2 .yell {
+    background-color: rgb(250, 223, 0);
+    width: 396px;
+    height: 20px;
+    opacity: 1;
+    position: relative;
+  }
+  #karyer2 .yell h1 {
+    font-family: Circe;
+    font-weight: 800;
+    font-size: 30px;
+    position: absolute;
+    bottom: 2px;
+    left: -10px;
+  }
+  #karyer2 .karyer2-coteny {
+    display: flex;
+    gap: 50px;
+    margin-top: 70px;
+  }
+  #karyer2 .karyer2-coteny img {
+    width: 459px;
+    height: 278px;
+    opacity: 1;
+  }
+  #karyer2 .karyer2-coteny h1 {
+    font-family: Circe;
+    font-weight: 400px;
+    font-size: 26px;
+    vertical-align: middle;
+  }
+  #karyer2 .karyer2-coteny a {
+    color: rgb(159, 159, 159);
+    font-family: "Playwrite HU", cursive;
+    font-weight: 400px;
+    font-size: 20px;
+    vertical-align: middle;
+  }
+  #karyer2 .karyer2-coteny p {
+    color: rgb(0, 0, 0);
+    font-family: "Inter", sans-serif;
+    font-weight: 400px;
+    font-size: 22px;
+    leading-trim: NONE;
+    line-height: 40px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+  }
+  #karyer2 .karyer2-coteny ul {
+    display: flex;
+    gap: 20px;
+  }
+  #karyer2 .karyer2-coteny ul li:hover {
+    font-size: 30px;
+  }
