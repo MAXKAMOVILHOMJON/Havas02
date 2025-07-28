@@ -1,0 +1,13 @@
+a{
+    color: white;
+}
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+h1{
+    color: white;
+    font-size: 30px;
+}
