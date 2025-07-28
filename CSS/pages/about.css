@@ -1,0 +1,86 @@
+.abou {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.about__matn h1 {
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+
+.about__matn h4 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    font-family: sans-serif;
+}
+
+.about__img img {
+    max-width: 600px;
+    width: 100%;
+}
+
+.abou p {
+    margin-bottom: 10px;
+}
+
+#about__cards {
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+
+.about__cards p {
+    margin-top: 30px;
+}
+
+.about__cards {
+    padding: 20px;
+    line-height: 25px;
+}
+
+.about__market {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+#about-marketing {
+    padding-bottom: 80px;
+}
+
+.about__bozor {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    ;
+}
+
+.about-kart img {
+    max-width: 390px;
+}
+
+#about__as {
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.finish__a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card__a__qulay img {
+    padding-right: 0;
+}
+
+.about__bolim h1 {
+    margin-bottom: 30px;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+
+
+.about__qulaylik {
+    line-height: 30px;
+}
