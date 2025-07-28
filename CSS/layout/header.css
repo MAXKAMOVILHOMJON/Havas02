@@ -1,0 +1,37 @@
+header{
+    position: fixed;
+    top: 0;
+    left: 200px;
+    width: 90%;
+   background-color: rgba(0, 0, 0, 0.471); 
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.men{
+    border-radius: 50px;
+
+
+}
+
+.menu__logo{
+    margin-left: 500px;
+    width: 500px;
+}
+
+.text{
+width: 500px;
+height: 30px;
+
+border-color: rgb(255, 255, 255);
+   
+
+}
+.box{
+    display: flex;
+    border: 2px solid;
+    max-width: 950px;
+}

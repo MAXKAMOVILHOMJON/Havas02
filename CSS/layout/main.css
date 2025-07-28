@@ -1,0 +1,46 @@
+main{
+    margin-top: 75px;
+    margin-left: 240px;
+    background-color: rgb(65, 63, 63);
+    padding: 20px ;
+
+}
+
+.tezlik{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.tezlik img{
+    width: 30px;
+}
+
+.card__s{
+width: 500px;
+background-color: aqua;
+text-align: center;
+line-height: 40px;
+padding: 20px;
+
+}
+.card__statictic{
+    display: flex;
+    gap: 30px;
+}
+
+.card__s_s{
+width: 500px;
+background-color:bisque;
+text-align: center;
+line-height: 40px;
+padding: 20px;
+}
+
+.card__s__s{
+width: 500px;
+background-color: rgba(137, 43, 226, 0.445);
+text-align: center;
+line-height: 40px;
+padding: 20px;
+}

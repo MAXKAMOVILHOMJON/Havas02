@@ -1,0 +1,20 @@
+#table{
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.box{
+  display: flex;
+  align-items: center;
+
+}
+
+th , td{
+    padding: 10px;
+    text-align: center;
+  
+}
+
+table{
+    width: 1200px;
+}
