@@ -1,13 +1,98 @@
-a{
-    color: white;
+.produk-card{
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    gap: 10px;
 }
-ul{
+
+.produkt-cardlar{
+    width: 410px;
+    height: 300px;
+    background-color: rgba(212, 212, 212, 0.747);
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+}
+
+.produkt-title{
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 90px;
+    justify-content: space-between;
 }
-.hi{
-    color: white;
-    font-size: 30px;
+
+
+
+.produkt-title h1{
+    font-size: 20px;
+    color: #30922F;
+}
+
+.produkt-title h2{
+    font-size: 20px;
+     color: white;
+    background-color: #30922F;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.kukuruz-img{
+    width: px;
+    height: 99px;
+}
+
+.product-narxi{
+    width: 127px;
+    height: 77px;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+}
+
+.product-narxi{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.product-narx1{
+    font-size: 20px;
+    color: #30922F;
+}
+
+.product-narx2{
+    font-size: 14px;
+    color: black;
+    text-align: end;
+    margin-right: 6px;
+    text-decoration: line-through;
+    text-decoration-color: red;
+    text-decoration-thickness: 2px;
+}
+
+.product-mini-narx{
+    display: flex;
+    align-items: end;
+    gap: 4px;
+}
+
+.product-mini-narx h1{
+    font-size: 40px;
+    color: #E96023;
+}
+
+.product-mini-narx p{
+    font-size: 24px;
+    color: #E96023;
+}
+
+.product-narx3{
+    font-size: 20px;
+    color: #30922F;
+    text-align: end;
+    margin-right: 12px;
 }
