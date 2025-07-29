@@ -1,1 +1,235 @@
+header {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
 
+.logo-menu {
+    padding-left: 60px;
+    padding-right: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 5px;
+}
+
+.menus {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.mini-menu {
+    display: flex;
+    gap: 10px;
+}
+
+.logo {
+    width: 52px;
+    height: 63px;
+}
+
+.tel {
+    font-size: 16px;
+    color: black;
+}
+
+.tel:hover {
+    color: red;
+}
+
+.menus a img {
+    width: 17px;
+    height: 17px;
+}
+
+.poisk {
+    display: flex;
+    justify-content: center;
+}
+
+.poisk input {
+    width: 300px;
+    height: 30px;
+    outline: none;
+}
+
+.poisk button {
+    outline: none;
+    border: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    cursor: pointer;
+    width: 80px;
+    height: 30px;
+    background-color: #E96023;
+}
+
+.navbar {
+    width: 100%;
+}
+
+.navbar-menu {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+
+}
+
+.navbar-menu li a:hover {
+    color: #30922F;
+    width: 300px;
+    background-color: #fce40f;
+    border-radius: 10px;
+}
+
+.navbar-menu li a {
+    padding: 8px;
+    color: black;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+
+#home {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    position: relative;
+}
+
+.korzina {
+    width: 514px;
+    height: 382px;
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    top: 200px;
+}
+
+.arbuz {
+    width: 429px;
+    height: 556px;
+    position: absolute;
+    z-index: -1;
+    right: 0;
+    top: 200px;
+    transform: rotate(40deg);
+}
+
+.home-title {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.home-title h1 {
+    font-size: 30px;
+    color: black;
+    background-color: transparent;
+    text-shadow: 5px 10px 10px yellow;
+}
+
+.home-title p {
+    font-size: 20px;
+    color: rgb(41, 41, 41);
+}
+
+.cards {
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.card {
+    width: 410px;
+    height: 300px;
+    background-color: rgba(212, 212, 212, 0.747);
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+}
+
+.card-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-title h1 {
+    font-size: 20px;
+    color: #30922F;
+}
+
+.card-title h2 {
+    font-size: 20px;
+    color: white;
+    background-color: #30922F;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.kukuruz {
+    width: 181px;
+    height: 224px;
+}
+
+.card-narxi {
+    width: 127px;
+    height: 77px;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-nmaduri {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.narx1 {
+    font-size: 20px;
+    color: #30922F;
+}
+
+.narx2 {
+    font-size: 14px;
+    color: black;
+    text-align: end;
+    margin-right: 12px;
+    text-decoration: line-through;
+    text-decoration-color: red;
+    text-decoration-thickness: 2px;
+}
+
+.mini-narx {
+    display: flex;
+    align-items: end;
+    gap: 4px;
+}
+
+.mini-narx h1 {
+    font-size: 40px;
+    color: #E96023;
+}
+
+.mini-narx p {
+    font-size: 24px;
+    color: #E96023;
+}
+
+.narx3 {
+    font-size: 20px;
+    color: #30922F;
+    text-align: end;
+    margin-right: 12px;
+}
